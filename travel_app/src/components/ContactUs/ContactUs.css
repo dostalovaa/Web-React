@@ -1,0 +1,67 @@
+.contactUs-wrapper {
+  margin-bottom: 4vw;
+}
+
+.contactUs-wrapper h2 {
+  color: #1c352f;
+  font-size: clamp(24px, 8vw, 72px);
+  margin: 4vw;
+  text-align: center;
+}
+.contactUs-content {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 4vw;
+}
+.contactUs-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ebebebb2;
+  height: 450px;
+  border-radius: 36px;
+  padding: 4vw;
+  gap: 40px;
+  transition: 0.3s ease;
+}
+.contactUs-card:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 10px 15px 5px rgba(128, 128, 128, 0.668);
+}
+
+.contactUs-left img {
+  width: 250px;
+  object-fit: cover;
+}
+.contactUs-right {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+}
+
+.contactUs-right h4 {
+  color: #1c352f;
+  font-size: clamp(16px, 5vw, 26px);
+  margin-bottom: 0.5vw;
+}
+.contactUs-right p {
+  font-size: clamp(14px, 3.5vw, 18px);
+}
+
+@media screen and (max-width: 1440px) {
+  .contactUs-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactUs-card {
+    flex-direction: column;
+  }
+  .contactUs-left img {
+    width: 200px;
+  }
+}

@@ -1,0 +1,26 @@
+.interierCabin-wrapper {
+  margin: 4vw;
+  text-align: center;
+}
+
+.interierCabin-wrapper h2 {
+  color: #1c352f;
+  font-size: clamp(24px, 8vw, 72px);
+  margin-bottom: 4vw;
+}
+
+.interierCabin-content {
+  background-color: #1c352f;
+  border-radius: 55px;
+}
+
+.interierCabin-filter button {
+  border: none;
+  outline: none;
+  background-color: #87a975;
+  padding: 12px 24px;
+  border-radius: 24px;
+  cursor: pointer;
+  color: white;
+  margin: 2vw;
+}
